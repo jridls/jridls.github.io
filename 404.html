@@ -2,43 +2,51 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">  
-    <title>Lucas Mellone's link tree</title>
+    <title>Jye Ridley (@jridls)</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
 
-    <script src="./js/three.r134.min.js"></script>
-    <script src="./js/vanta.halo.min.js"></script>
-
-    <script>
-
-    window.addEventListener('DOMContentLoaded', () => {
-        // console.log('Vanta has been successfully loaded')
-        VANTA.HALO({
-        el: "#vanta-bg",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        baseColor: 0xf00a7f,
-        backgroundColor: 0xb0b0c,
-        amplitudeFactor: 0.20,
-        size: 1,
-        })
-    })
-
-    </script>
-
+    <div class="overlay"></div>
+    <script type="module" src="./js/main.js"></script>
 </head>
 
 <body>
     <div id="vanta-bg">
-        <header style="padding: 40px">
-            <h1> 404 </h1>
-            <p>This page isn't live yet.</p>
-            <a target="_blank" href="https://links.lucasmellone.com">head to my links tree for more info.</a>
+        <header>
+            <div>
+                <img src="./assets/IMG_3395.webp" alt="Profile picture"/>
+            </div>
+            <h3> @jridls </h3>
+            <p>Owner of Airbound</p>
         </header>
+
+        <main>
+
+            <section>
+                <div>
+                    <ul class="links-list">
+                        <li class="link_button_highlight" >
+                            <a target="_blank" href="https://www.youtube.com/@jye5" 
+                            data-info="pre-save-message" style="color: #2067c2">
+                            Subscribe to me on YouTube!
+                            </a>
+                        </li>
+                        <li class="link_button_highlight">
+                            <a target="_blank" 
+                            href="https://discord.gg/WQCHz6qvJs"
+                            style="color: #505050"
+                            data-info="applemusic-message">
+                            Join Airbound's Discord Server!
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+
+        </main>
+
     </div>
+    <footer>hi</footer>
 </body>
 </html>
